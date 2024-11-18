@@ -9,8 +9,6 @@ A RESTful API designed for managing user posts, comments, collections, and inter
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
