@@ -16,11 +16,34 @@ A RESTful API designed for managing user posts, comments, collections, and inter
 
 Recover-API enables users to:
 
-- **User Authentication**: Register, log in, and manage user accounts securely.
-- **Post Management**: Create, update, delete posts, and view posts by other users. User can post text, audio, images and video files.
-- **Comment System**: Add, update, and delete comments on posts, as well as like comments.
-- **Collections**: Create and manage personal collections and add posts to them.
-- **QA System**: Ask and answer user questions with an inbox feature.
+### 1. User Authentication
+- **Registration**: Users can create a new account by providing basic information such as email, username, and password. Secure password hashing ensures data protection.
+- **Login**: Users can log in securely using their credentials (email and password). Authentication tokens are provided upon successful login, which can be used for accessing protected endpoints.
+  
+#### **Post Management**
+- **Create Posts**: Users can create new posts containing text, audio, image, and video files. They can add titles and descriptions to their posts. 
+- **Update Posts**: Users can edit their existing posts to update the content, title, or media.
+- **Delete Posts**: Users can delete their posts whenever needed. 
+- **View Posts**: Users can view posts created by themselves and others, including media files such as images, videos, and audio.
+
+#### **Comment System**
+- **Add Comments**: Users can comment on posts to provide feedback or engage in discussions.
+- **Update Comments**: Users can edit their comments to update the content, such as correcting errors or adding more information.
+- **Delete Comments**: Users can delete their comments at any time.
+- **Like Comments**: Users can like comments made by others, enabling them to express appreciation or agreement.
+- **Reply to Comments**: Users can reply to specific comments, creating a threaded conversation within posts.
+
+#### **Collections**
+- **Create Collections**: Users can create personalized collections to organize their posts. These collections can be named.
+- **Manage Collections**: Users can edit their collection details, such as name and privacy settings.
+- **Add Posts to Collections**: Users can add posts to their collections for easy access and organization. This feature allows users to create thematic groupings of posts.
+- **View Collections**: Users can view all their created collections and the posts within each collection.
+- **Delete Collections**: Users can remove collections, which deletes the collection but does not delete the posts within them.
+
+#### **QA System**
+- **Ask Questions**: Users can ask questions to other users in a Q&A format. This allows for community-driven knowledge sharing.
+- **Answer Questions**: Users can provide answers to questions asked by others, contributing to discussions and sharing knowledge.
+
 
 ## Getting Started
 
