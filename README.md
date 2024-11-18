@@ -98,19 +98,19 @@ The api contains functions that validate added files.
 **Request Body**: { "images_file": "path", "description": "file_description", "public": true }  
 **Response**: Returns details of the newly created post.
  
-- **`GET /api/posts/:userId/`** 
+- **`GET /api/posts/:userId/`**  
   Retrieve posts created by a specific user if they are public.  
   Response: Returns a list of the user's public posts.
 
-- **`GET /api/post/:postId/`** 
+- **`GET /api/post/:postId/`**  
   Retrieve details of a specific post by ID.  
   Response: Returns the post data. 
 
-- **`DELETE /api/post/:postId/`** 
+- **`DELETE /api/post/:postId/`**  
   Delete a specific post by ID.  
   Response: Confirms the deletion of the post. 
 
-- **`PATCH /api/post/:postId/`** 
+- **`PATCH /api/post/:postId/`**  
   Update a specific post by ID.  
   Request Body: { "description": "file_description", "public": true  }  
   Response: Returns the updated post details.
